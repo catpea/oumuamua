@@ -1,0 +1,26 @@
+{
+  "name": "oumuamua",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "a super tiny database",
+  "main": "index.js",
+  "scripts": {
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catpea/oumuamua.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catpea/oumuamua/issues"
+  },
+  "homepage": "https://github.com/catpea/oumuamua#readme",
+  "dependencies": {
+    "events": "^3.3.0",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0"
+  }
+}
